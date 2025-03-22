@@ -1,0 +1,46 @@
+# Ignore everything
+*
+
+# Allow specific directories and files
+!.gitignore
+!README.md
+
+# Allow the specific files used in the experiment
+!src/
+!src/central/
+!src/central/__init__.py
+!src/central/dp_mechanisms.py 
+!src/central/dp_selection.py
+!src/central/noise_and_round.py
+!src/utils/
+!src/utils/__init__.py
+!src/utils/math_utils.py
+
+# Allow the test file that generates the graph
+!tests/
+!tests/test_dp_mechanism_comparison.py
+
+# Keep the generated plot
+!mechanism_comparison.png
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg 
