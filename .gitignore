@@ -4,6 +4,7 @@
 # Allow specific directories and files
 !.gitignore
 !README.md
+!LICENSE
 
 # Allow the specific files used in the experiment
 !src/
